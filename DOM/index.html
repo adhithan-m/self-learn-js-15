@@ -1,0 +1,76 @@
+ <!--<html> 
+ <head> 
+ <script type ="text/javascript">	
+ function callme() 
+ {
+document.getElementById("D1").style.backgroundColor= "blue"; 
+ } 
+ 
+ function callme1() 
+ { 
+ var b =document.getElementsByClassName("C1"); 
+
+ b[0].style.color="green"; 
+ b[0].style.fontSize="20px"; 
+ b[1].style.fontWeight="bold"; 
+ } 
+ 
+ function callme2() 
+ { 
+ 
+ var b1 =document.getElementsByTagName("H1");
+ 
+ b1[0].style.backgroundColor="red"; 
+ b1[1].style.backgroundColor="green"; 
+
+ } 
+
+ </script> 
+ </head> 
+ <body> 
+
+ <div id="D1" style="background-color:tan; height:100px; width:100px; margin-left:500px; margin-right:500px;"></div>
+ <input type="button" value="click Me" onclick="callme()"/>
+
+
+ 
+ <div class="C1" style="background-color:red; height:100px; width:100px;">Good</div>
+ <div class="C1" style="background-color:lightblue; height:100px; width:100px;">Morning</div>
+ 
+ <input type="button" value="click Me!" onclick="callme1()"/>
+ <h1 id="r1" onmouseover="callme2()">Adhithan</h1>
+ <h1 id="r2" onmouseover="callme2()">Learn To basics</h1>
+
+ 
+ </body> 
+ </html> -->
+
+<!--<html>
+
+<body>
+<script src="text/javascript">
+var l=[];
+var a =prompt("Enter the value");
+
+
+for(i=0;i<a;i++)
+{
+var b=prompt("Enter the value");
+l.push(b)
+}
+console.log(l)
+
+</script>
+</body>
+</html>--> 
+
+var arr=[]
+function add(a){
+	arr.push(a);
+}
+add({name:"nithi",id:"7"});
+add({age:"22",id:"2"});
+add({name:"anu",id:"3"});
+console.log(arr);
+
+
